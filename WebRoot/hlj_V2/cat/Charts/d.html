@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>黑龙江十大产业展示</title>
+        <script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui.js"></script>
+        <link href="css/bootstrap-combined.min.css" rel="stylesheet" media="screen">
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div>
+            <a class="button" href="../index.html">返回</a>
+        </div>
+        <div id="main" style="height:100%" >
+            <div id="barshow" style="height:600px"></div>
+        </div>
+        <script src="build/dist/echarts.js"></script>
+        <script type="text/javascript">
+            // 路径配置
+            require.config({
+                paths: {
+                    echarts: 'http://echarts.baidu.com/build/dist'
+                }
+            });
+            require(
+                [
+                    'echarts',
+                    'echarts/chart/wordCloud' // 使用柱状图就加载bar模块，按需加载
+                ],
+                function (ec) {
+                    // 基于准备好的dom，初始化echarts图表
+                    var myChart = ec.init(document.getElementById('barshow')); 
+                    function createRandomItemStyle() {
+                        return {
+                            normal: {
+                                color: 'rgb(' + [
+                                    Math.round(Math.random() * 255),
+                                    Math.round(Math.random() * 255),
+                                    Math.round(Math.random() * 255)
+                                ].join(',') + ')'
+                            }
+                        };
+                    }
+                    var option = {
+                        tooltip: {
+                            show: true
+                        },
+                        series: [{
+                            name: '十大产业',
+                            type: 'wordCloud',
+                            size: ['80%', '80%'],
+                            textRotation : [0, 0],
+                            textPadding: 0,
+                            autoSize: {
+                                enable: true,
+                                minSize: 14
+                            },
+                            data: [
+                                {
+                                    name: "新材料产业",
+                                    value: 10000,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "生物产业",
+                                    value: 6181,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "新能源装备制造产业",
+                                    value: 4386,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "新型农机装备制造产业",
+                                    value: 4055,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "交通运输装备制造产业",
+                                    value: 2467,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "绿色食品产业",
+                                    value: 2244,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "矿产钢铁产业",
+                                    value: 1898,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "煤化石化产业",
+                                    value: 1484,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "林产品加工产业",
+                                    value: 1112,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "现代服务业",
+                                    value: 965,
+                                    itemStyle: createRandomItemStyle()
+                                }
+                            ]
+                        }]
+                    };
+                    myChart.setOption(option);
+                    myChart.on('click', function (param) {
+                        //alert(param.name);
+                        window.open("http://localhost:8080/search/servlet/SearchServlet?core=fields&query="+param.name);
+                    });
+                    window.onresize = myChart.resize;
+                }
+            );
+        </script>
+    </body>
+</html>

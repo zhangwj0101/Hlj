@@ -1,0 +1,53 @@
+﻿﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<chart  baseFontSize='20' canvasBgColor='FFFFFF' formatNumberScale='0' canvasBgAlpha='0' formatNumber="0">
+    
+    <categories>  
+        <category label='高校' ></category>  
+        <category label='研究所' />  
+        <category label='企业' />  
+        <category label='行政机构' />  
+    </categories> 
+    
+    <dataset seriesName='全部' color="AFD8F8">  
+        <set value='51' />  
+        <set value='34' />  
+        <set value='10' />  
+        <set value='2' />
+    </dataset>
+    
+    <dataset seriesName='国家级' color="F6BD0F">  
+        <set value='7' />  
+        <set value='2' />  
+        <set value='0' />  
+        <set value='0' />
+    </dataset>
+    
+    <dataset seriesName='省级' color="8BBA00">  
+        <set value='44' />  
+        <set value='32' />  
+        <set value='10' />  
+        <set value='2' />
+    </dataset>
+    
+    
+</chart>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

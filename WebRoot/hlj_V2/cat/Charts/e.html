@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>黑龙江十大产业展示</title>
+        <script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui.js"></script>
+        <link href="css/bootstrap-combined.min.css" rel="stylesheet" media="screen">
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div>
+            <a class="button" href="../index.html">返回</a>
+        </div>
+        <div id="main" style="height:100%" >
+            <div id="barshow" style="height:950px"></div>
+        </div>
+        <script src="build/dist/echarts.js"></script>
+        <script type="text/javascript">
+            // 路径配置
+            require.config({
+                paths: {
+                    echarts: 'http://echarts.baidu.com/build/dist'
+                }
+            });
+            require(
+                [
+                    'echarts',
+                    'echarts/chart/wordCloud' // 使用柱状图就加载bar模块，按需加载
+                ],
+                function (ec) {
+                    // 基于准备好的dom，初始化echarts图表
+                    var myChart = ec.init(document.getElementById('barshow')); 
+                    function createRandomItemStyle() {
+                        return {
+                            normal: {
+                                color: 'rgb(' + [
+                                    Math.round(Math.random() * 255),
+                                    Math.round(Math.random() * 255),
+                                    Math.round(Math.random() * 255)
+                                ].join(',') + ')'
+                            }
+                        };
+                    }
+                    var option = {
+                        tooltip: {
+                            show: true
+                        },
+                        series: [{
+                            type: 'wordCloud',
+                            size: ['80%', '80%'],
+                            textRotation : [0, 0],
+                            textPadding: 0,
+                            autoSize: {
+                                enable: true,
+                                minSize: 14
+                            },
+                            data: [
+                                {
+                                    name: "信息化推进产业联盟",
+                                    value: 10000,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "对俄农业产业联盟",
+                                    value: 6181,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "杂粮产业联盟",
+                                    value: 4386,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "信息无障碍产业联盟",
+                                    value: 4055,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "卫星导航与位置服务产业联盟",
+                                    value: 2467,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "工业设计产业联盟",
+                                    value: 2244,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "绿色养殖产业联盟",
+                                    value: 1898,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "服务外包产业联盟",
+                                    value: 1484,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "机器人产业联盟",
+                                    value: 1112,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "秸秆研究应用产业联盟",
+                                    value: 1112,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "3D打印产业联盟",
+                                    value: 1112,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "肥料产业联盟",
+                                    value: 1112,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "紫外光及绿色阻燃产业联盟",
+                                    value: 1112,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "巾帼绿色食品产业联盟",
+                                    value: 1112,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "玉米深加工产业联盟",
+                                    value: 1112,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "兽药产业联盟",
+                                    value: 1112,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "LED产业联盟",
+                                    value: 1112,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "石墨产业联盟",
+                                    value: 1112,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "甜菜制糖产业联盟",
+                                    value: 1112,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "高纬度地区电动汽车产业联盟",
+                                    value: 1112,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "硬质材料产业联盟",
+                                    value: 1112,
+                                    itemStyle: createRandomItemStyle()
+                                },
+                                {
+                                    name: "农业科技服务产业联盟",
+                                    value: 965,
+                                    itemStyle: createRandomItemStyle()
+                                }
+                            ]
+                        }]
+                    };
+                    myChart.setOption(option);
+                    myChart.on('click', function (param) {
+                        //alert(param.name.substr(0,param.name.length-4));
+                        window.open("http://192.168.101.100:8080/search/servlet/SearchServlet?core=fields&query="+param.name.substr(0,param.name.length-4));
+                    });
+                    window.onresize = myChart.resize;
+                }
+            );
+        </script>
+    </body>
+</html>

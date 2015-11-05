@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>黑龙江十大产业统计图</title>
+        <script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui.js"></script>
+        <link href="css/bootstrap-combined.min.css" rel="stylesheet" media="screen">
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div>
+            <a class="button" href="../index.html">返回</a>
+        </div>
+        <div id="main" style="height:100%" >
+            <div id="barshow" style="height:1000px"></div>
+        </div>
+        <script src="build/dist/echarts.js"></script>
+        <script type="text/javascript">
+            // 路径配置
+            require.config({
+                paths: {
+                    echarts: 'http://echarts.baidu.com/build/dist'
+                }
+            });
+            require(
+                [
+                    'echarts',
+                    'echarts/chart/pie' // 使用柱状图就加载bar模块，按需加载
+                ],
+                function (ec) {
+                    // 基于准备好的dom，初始化echarts图表
+                    var myChart = ec.init(document.getElementById('barshow')); 
+                    
+                    var option = {
+                        title : {
+                            text: '黑龙江十大产业统计图',
+                            textStyle:{
+                                fontSize:40,
+                            },
+                            x:'center'
+                        },
+                        tooltip : {
+                            trigger: 'item',
+                            formatter: "{a} <br/>{b} : {c} ({d}%)"
+                        },
+                        legend: {
+                            orient : 'vertical',
+                            x : 'left',
+                            data:['新材料产业','生物产业','新能源装备制造产业','新型农机装备制造产业','交通运输装备制造产业','绿色食品产业','矿产钢铁产业','煤化石化产业','林产品加工产业','现代服务业'],
+                            textStyle:{
+                                fontSize:25
+                            }
+                        },
+                        toolbox: {
+                            show : true,
+                            feature : {
+                                mark : {show: true},
+                                dataView : {show: true, readOnly: false},
+                                magicType : {
+                                    show: true, 
+                                    type: ['pie', 'funnel'],
+                                    option: {
+                                        funnel: {
+                                            x: '25%',
+                                            width: '50%',
+                                            funnelAlign: 'left',
+                                            max: 1548
+                                        }
+                                    }
+                                },
+                                restore : {show: true},
+                                saveAsImage : {show: true}
+                            }
+                        },
+                        calculable : true,
+                        series : [
+                            {
+                                name:'访问来源',
+                                type:'pie',
+                                radius : '55%',
+                                center: ['50%', '60%'],
+                                data:[
+                                  {value:310, name:'新材料产业'},
+                                    {value:103, name:'生物产业'},
+                                    {value:400, name:'新能源装备制造产业'},
+                                    {value:213, name:'新型农机装备制造产业'},
+                                    {value:90, name:'交通运输装备制造产业'},
+                                    {value:58, name:'绿色食品产业'},
+                                    {value:182, name:'矿产钢铁产业'},
+                                    {value:280, name:'煤化石化产业'},
+                                    {value:350, name:'林产品加工产业'},
+                                    {value:331, name:'现代服务业'}
+                                ],
+                                itemStyle:{ 
+                                    normal:{ 
+                                          label:{ 
+                                            show: true, 
+                                            formatter: '{b} : {c} ({d}%)',
+                                            textStyle:{
+                                                fontSize:25
+                                            } 
+                                          }, 
+                                          labelLine :{show:true} 
+                                    }
+                                } 
+                            }
+                        ]
+                    };
+                    myChart.setOption(option);
+                    myChart.on('click', function (param) {
+                        window.location.href="e.html";
+                    });
+                    window.onresize = myChart.resize;
+                }
+            );
+        </script>
+    </body>
+</html>

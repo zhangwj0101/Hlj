@@ -1,0 +1,149 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.js"></script>
+		<link href="css/bootstrap-combined.min.css" rel="stylesheet" media="screen">
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="span4">
+					<ul class="nav nav-list">
+						<li class="nav-header">
+							科技资源
+						</li>
+						<li>
+							<a href="college.html">普通高校</a>
+						</li>
+						<li>
+							<a href="institution.html">独立科研院所</a>
+						</li>
+						<li>
+							<a href="keylab.html">重点实验室</a>
+						</li>
+						<li>
+							<a href="engineeringcenter.html">工程技术研究中心</a>
+						</li>
+						<li>
+							<a href="union.html">产业技术创新战略联盟</a>
+						</li>
+						<li>
+							<a href="workstation.html">企业院士工作站</a>
+						</li>
+						<li class="active">
+							<a href="academician.html">两院院士</a>
+						</li>
+						<li>
+							<a href="researcher.html">研发人员</a>
+						</li>
+						<li class="nav-header">
+						</li>
+					</ul>
+				</div>
+				<div class="span8">
+					<div class="carousel slide" style="height:600px" id="carousel-184312">
+						<!--<ol class="carousel-indicators">
+							<li data-slide-to="0" data-target="#carousel-184312">
+							</li>
+							<li data-slide-to="1" data-target="#carousel-184312" class="active">
+							</li>
+							<li data-slide-to="2" data-target="#carousel-184312">
+							</li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="item">
+								<div id="mapshow"></div>
+								<div class="carousel-caption">
+									<h4>
+										棒球
+									</h4>
+									<p>
+										棒球运动是一种以棒打球为主要特点，集体性、对抗性很强的球类运动项目，在美国、日本尤为盛行。
+									</p>
+								</div>
+							</div>
+							<div class="item active">
+								<div></div>
+							</div>
+							<div class="item">
+								<div></div>
+							</div>
+						</div>
+						<a data-slide="prev" href="#carousel-184312" class="left carousel-control">‹</a> <a data-slide="next" href="#carousel-184312" class="right carousel-control">›</a>-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="build/dist/echarts.js"></script>
+        <script type="text/javascript">
+            // 路径配置
+            require.config({
+                paths: {
+                    echarts: 'http://echarts.baidu.com/build/dist'
+                }
+            });
+            require(
+                [
+                    'echarts',
+                    'echarts/chart/map' // 使用柱状图就加载bar模块，按需加载
+                ],
+                function (ec) {
+                    // 基于准备好的dom，初始化echarts图表
+                    var myChart = ec.init(document.getElementById('carousel-184312')); 
+                    
+                    var option = {
+                        title: {
+                            text : '黑龙江省'
+                        },
+                        tooltip : {
+                            trigger: 'item'
+                        },
+                        legend: {
+                            orient: 'vertical',
+                            x:'right',
+                            data:['高校数量']
+                        },
+                        dataRange: {
+                            min: 0,
+                            max: 10,
+                            color:['orange','yellow'],
+                            text:['高','低'],           // 文本，默认为数值文本
+                            calculable : true
+                        },
+                        series : [
+                            {
+                                name: '高校数量',
+                                type: 'map',
+                                mapType: '黑龙江',
+                                selectedMode : 'single',
+                                itemStyle:{
+                                    normal:{label:{show:true}},
+                                    emphasis:{label:{show:true}}
+                                },
+                                data:[
+                                    {name: '黑河市',value: 1},
+                                    {name: '大兴安岭地区',value: 1},
+                                    {name: '哈尔滨市',value: 54},
+                                    {name: '齐齐哈尔市',value: 5},
+                                    {name: '牡丹江市',value: 4},
+                                    {name: '绥化市',value: 1},
+                                    {name: '伊春市',value: 1},
+                                    {name: '佳木斯市',value: 3},
+                                    {name: '鸡西市',value:1},
+                                    {name: '双鸭山市',value: 1},
+                                    {name: '大庆市',value: 5},
+                                    {name: '鹤岗市',value: 1},
+                                    {name: '七台河市',value: 1}
+                                ]
+                            }
+                        ]
+                    };
+                    myChart.setOption(option); 
+                    window.onresize = myChart.resize;
+                }
+            );
+        </script>
+	</body>
+</html>

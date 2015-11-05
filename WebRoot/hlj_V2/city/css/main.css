@@ -1,0 +1,638 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+html, body {
+	height: 1080px;
+	width: 1920px;
+	overflow: hidden;
+	position: relative;
+}
+img {
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-bottom-width: 0px;
+	border-right-width: 0px
+}
+form {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+	list-style-type: none
+}
+ul {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+	list-style-type: none
+}
+ol {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+	list-style-type: none;
+}
+li {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+	padding-top: 0px;
+	list-style-type: none
+}
+/*--------index.html--------------------*/
+.hlj1 {
+	float: left;
+	height: 1080px;
+	width: 1920px;
+	background: url(../images/video.gif) left top no-repeat #e0e0e0;
+}
+.hlj1 a span {
+	display: none;
+}
+.hlj1 .link_c1 {
+	float: left;
+	width: 36%;
+	height: 1080px;
+	margin-left: 30px;
+}
+.hlj1 .link_c2 {
+	float: right;
+	width: 60%;
+	height: 1080px;
+	margin-right: 20px;
+}
+/*------------------citylist-----------------*/
+.hlj2 {
+	float: left;
+	height: 1080px;
+	width: 1920px;
+	background: url(../images/city.gif) left top no-repeat #e0e0e0;
+}
+.hlj2 a span {
+	display: none;
+}
+.hlj2 .link_c1 {
+	position: absolute;
+	width: 700px;
+	height: 280px;
+	left: 0px;
+	top: 0px;
+}
+.hlj2 .link_c1:hover {
+	position: absolute;
+	width: 700px;
+	height: 280px;
+	left: 0px;
+	top: 0px;
+}
+.hlj2 .link_c1:hover span {
+	position: absolute;
+	width: auto;
+	height: auto;
+	left: 150px;
+	top: 150px;
+	padding: 10px 50px;
+	text-align: center;
+	color: #FFF;
+	font-size: 36px;
+	background-color: #333;
+	white-space: nowrap;
+	display: block;
+}
+.hlj2 .link_c2 {
+	position: absolute;
+	width: 900px;
+	height: 280px;
+	right: 0px;
+	top: 0px;
+}
+.hlj2 .link_c2:hover {
+	position: absolute;
+	width: 900px;
+	height: 280px;
+	right: 0px;
+	top: 0px;
+}
+.hlj2 .link_c2:hover span {
+	position: absolute;
+	width: auto;
+	height: auto;
+	right: 290px;
+	top: 150px;
+	padding: 10px 50px;
+	text-align: center;
+	color: #FFF;
+	font-size: 36px;
+	background-color: #333;
+	white-space: nowrap;
+	display: block;
+}
+.hlj2 .link_c3 {
+	position: absolute;
+	width: 700px;
+	height: 350px;
+	left: 0px;
+	bottom: 0px;
+}
+.hlj2 .link_c3:hover {
+	position: absolute;
+	width: 700px;
+	height: 350px;
+	left: 0px;
+	bottom: 0px;
+}
+.hlj2 .link_c3:hover span {
+	position: absolute;
+	width: auto;
+	height: auto;
+	left: 150px;
+	bottom: 250px;
+	padding: 10px 50px;
+	text-align: center;
+	color: #FFF;
+	font-size: 36px;
+	background-color: #333;
+	white-space: nowrap;
+	display: block;
+}
+.hlj2 .link_c4 {
+	position: absolute;
+	width: 360px;
+	height: 380px;
+	right: 0px;
+	bottom: 0px;
+}
+.hlj2 .link_c4:hover {
+	position: absolute;
+	width: 360px;
+	height: 380px;
+	right: 0px;
+	bottom: 0px;
+}
+.hlj2 .link_c4:hover span {
+	position: absolute;
+	width: auto;
+	height: auto;
+	right: 50px;
+	bottom: 300px;
+	padding: 10px 50px;
+	text-align: center;
+	color: #FFF;
+	font-size: 36px;
+	background-color: #333;
+	white-space: nowrap;
+	display: block;
+}
+.hlj2 .wz1 {
+	position: absolute;
+	top: 400px;
+	left: 1235px;
+}
+.hlj2 .link_c5 {
+	position: absolute;
+	width: 30px;
+	height: 50px;
+	top: 420px;
+	left: 1235px;
+	display: block;
+	line-height: 20000px;
+	overflow: hidden;
+	text-decoration: none;
+}
+.hlj2 .link_c5:hover {
+	position: absolute;
+	width: auto;
+	height: 20px;
+	top: 420px;
+	left: 1235px;
+	background: url(../images/city1.png) left bottom no-repeat;
+	display: block;
+	color: #FFF;
+	padding: 10px 0px 15px 50px;
+	text-align: right;
+	line-height: normal;
+	font-size: 18px;
+}
+.hlj2 .link_c6 {
+	position: absolute;
+	width: 220px;
+	height: 20px;
+	top: 530px;
+	left: 1605px;
+	display: block;
+	line-height: 20000px;
+	overflow: hidden;
+	padding: 10px 0px 15px 50px;
+}
+.hlj2 .link_c6:hover {
+	position: absolute;
+	width: auto;
+	height: 20px;
+	top: 530px;
+	left: 1605px;
+	background: url(../images/city1.png) left bottom no-repeat;
+	display: block;
+	color: #FFF;
+	padding: 10px 0px 15px 50px;
+	text-align: right;
+	line-height: normal;
+	font-size: 18px;
+}
+.hlj2 .link_c7 {
+	position: absolute;
+	width: 220px;
+	height: 20px;
+	top: 620px;
+	left: 1505px;
+	display: block;
+	line-height: 20000px;
+	overflow: hidden;
+	padding: 10px 0px 15px 30px;
+}
+.hlj2 .link_c7:hover {
+	position: absolute;
+	width: auto;
+	height: 20px;
+	top: 620px;
+	left: 1505px;
+	background: url(../images/city1.png) left bottom no-repeat;
+	display: block;
+	color: #FFF;
+	padding: 10px 0px 15px 30px;
+	text-align: right;
+	line-height: normal;
+	font-size: 18px;
+}
+.hlj2 .link_c8 {
+	position: absolute;
+	width: 220px;
+	height: 20px;
+	top: 720px;
+	left: 1275px;
+	display: block;
+	line-height: 20000px;
+	overflow: hidden;
+	padding: 10px 0px 15px 30px;
+}
+.hlj2 .link_c8:hover {
+	position: absolute;
+	width: auto;
+	height: 20px;
+	top: 720px;
+	left: 1275px;
+	background: url(../images/city1.png) left bottom no-repeat;
+	display: block;
+	color: #FFF;
+	padding: 10px 0px 15px 50px;
+	text-align: right;
+	line-height: normal;
+	font-size: 18px;
+}
+.hlj2 .link_c9 {
+	position: absolute;
+	width: 120px;
+	height: 20px;
+	top: 590px;
+	left: 640px;
+	display: block;
+	line-height: 20000px;
+	overflow: hidden;
+	padding: 10px 0px 15px 50px;
+}
+.hlj2 .link_c9:hover {
+	position: absolute;
+	width: auto;
+	height: 20px;
+	top: 590px;
+	left: 640px;
+	background: url(../images/city1.png) left bottom no-repeat;
+	display: block;
+	color: #FFF;
+	padding: 10px 0px 15px 50px;
+	text-align: right;
+	line-height: normal;
+	font-size: 18px;
+}
+/*---------edifice---------edifice---*/
+.hlj3 {
+	float: left;
+	height: 1080px;
+	width: 1920px;
+	background: url(../images/edifice.jpg) left top no-repeat #e0e0e0;
+}
+.hlj3 h2 {
+	position: absolute;
+	width: auto;
+	height: auto;
+	left: 500px;
+	top: 50px;
+	color: #FFF;
+	font-size: 36px;
+}
+.hlj3 ul {
+	float: left;
+	padding-left: 357px;
+	padding-top: 290px;
+	width: 150px;
+}
+.hlj3 ul li {
+	position: relative;
+	float: left;
+	width: 147px;
+	height: 14px;
+	margin-top: 1px;
+}
+.hlj3 ul li a {
+	position: relative;
+	width: 147px;
+	height: 14px;
+	display: block;
+	float: left;
+	z-index: 9;
+	overflow: hidden;
+	line-height: 500000px;
+}
+.hlj3 ul li span {
+	position: absolute;
+	top: -80px;
+	left: 0px;
+	width: auto;
+	height: 84px;
+	padding: 10px 0px 10px 270px;
+	z-index: 8;
+	color: #FFF;
+	font-size: 24px;
+	white-space: nowrap;
+}
+.hlj3 ul li.ed1 span {
+	background: url(../images/1.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed2 span {
+	background: url(../images/2.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed3 span {
+	background: url(../images/3.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed4 span {
+	background: url(../images/4.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed5 span {
+	background: url(../images/5-5.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed6 span {
+	background: url(../images/6.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed7 span {
+	background: url(../images/7.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed8 span {
+	background: url(../images/8.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed9 span {
+	background: url(../images/9.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed10 span {
+	background: url(../images/10.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed11 span {
+	background: url(../images/11.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed12 span {
+	background: url(../images/12.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed13 span {
+	background: url(../images/13.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed14 span {
+	background: url(../images/14.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed15 span {
+	background: url(../images/15.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed16 span {
+	background: url(../images/16.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed17 span {
+	background: url(../images/17.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed18 span {
+	background: url(../images/18.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed19 span {
+	background: url(../images/19.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed20 span {
+	background: url(../images/20.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed21 span {
+	background: url(../images/21.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed22 span {
+	background: url(../images/22.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed23 span {
+	background: url(../images/23.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed24 span {
+	background: url(../images/24.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed25 span {
+	background: url(../images/25.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed26 span {
+	background: url(../images/26.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed27 span {
+	background: url(../images/27.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed28 span {
+	background: url(../images/28.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed29 span {
+	background: url(../images/29.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed30 span {
+	background: url(../images/30.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed31 span {
+	background: url(../images/31.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed32 span {
+	background: url(../images/32.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed33 span {
+	background: url(../images/33.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed34 span {
+	background: url(../images/34.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed35 span {
+	background: url(../images/35.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed36 span {
+	background: url(../images/36.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed37 span {
+	background: url(../images/37.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed38 span {
+	background: url(../images/38.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed39 span {
+	background: url(../images/39.png) left bottom no-repeat;
+}
+.hlj3 ul li.ed40 span {
+	background: url(../images/40.png) left bottom no-repeat;
+}
+/*-------------ptfw-----ptfw----------*/
+.ptfw {
+	background: url(../images/ptfw.png) left top no-repeat;
+	float: right;
+	width: 700px;
+	height: 700px;
+	margin: 150px 240px 0px 0px;
+	position: relative;
+}
+.ptfw a {
+	display: block;
+	width: 120px;
+	height: 120px;
+	position: absolute;
+}
+.ptfw a span {
+	display: none;
+}
+.ptfw a.fw1 {
+	top: 105px;
+	left: 105px;
+}
+.ptfw a.fw2 {
+	top: 285px;
+	left: 30px;
+}
+.ptfw a.fw3 {
+	top: 470px;
+	left: 100px;
+}
+.ptfw a.fw4 {
+	top: 540px;
+	left: 285px;
+}
+.ptfw a.fw5 {
+	top: 470px;
+	left: 465px;
+}
+.ptfw a.fw6 {
+	top: 285px;
+	left: 540px;
+}
+.ptfw a.fw7 {
+	top: 105px;
+	left: 465px;
+}
+.ptfw a.fw8 {
+	top: 30px;
+	left: 285px;
+}
+/*-------pop--------------------------*/
+/*-----------浮动层-------------------------------------*/
+.sample_popup {
+	z-index: 10;
+	width: auto;
+	float: left;
+	height: auto;
+	padding: 2px;
+	background: #999;
+}
+.sample_popup .sample_popup_1 {
+	float: left;
+	width: auto;
+	height: auto;
+	position: relative;
+}
+.sample_popup .sample_popup_1 h5, .sample_popup .sample_popup_2 h5 {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 11;
+	float: left;
+	line-height: 2;
+}
+.sample_popup .sample_popup_1 h5 .number_layer {
+	float: left;
+	font-size: 14px;
+}
+.sample_popup .sample_popup_1 h5 span.closed, .sample_popup .sample_popup_2 h5 span.closed {
+	float: right;
+	cursor: pointer;
+	display: inline;
+	z-index: +3;
+	color: #FFF;
+	font-size:45px;
+	background: red;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+	text-align:center;
+	line-height:100px;
+	margin:-50px -50px 0px 0px;
+}
+.layer {
+	float: left;
+	width: 1689px;
+	background: #ededed;
+	font-size: 12px;
+	height: auto;
+}
+.layer h6 {
+	float: left;
+	width: 1689px;
+	height: 31px;
+}
+.layer h6.club {
+	float: left;
+	width: 1689px;
+	height: 53px;
+}
+.layer h6.club .titles {
+	float: left;
+	padding: 8px 0px 0px 10px;
+	color: #fff;
+}
+.layer h6 .titles {
+	float: left;
+	padding: 8px 0px 0px 10px;
+	color: #069;
+	font-size: 16px;
+}
+.layer h6.club p {
+	float: right;
+	width: 135px;
+	height: 31px;
+}
+.layer h6 p {
+	float: right;
+	width: 135px;
+	height: 31px;
+}
+.layer .firend_list {
+	width: 1689px;
+	float: left;
+	background: #fff;
+	height:858px;
+	overflow:hidden;
+}
