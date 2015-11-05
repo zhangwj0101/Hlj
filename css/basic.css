@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, ul, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td.img, div, dl, dt, dd, input {
+	margin: 0;
+	padding: 0;
+	border: none
+}
+body {
+	font-family: '微软雅黑';
+	background:url(../images/bg.jpg) top center no-repeat #fff;
+	width:1920px;
+	height:1080px;
+	overflow:hidden;
+}
+img {
+	border: none;
+}
+ul, ol {
+	list-style: none
+}
+input, select,{
+	outline: none;
+	border: 0;
+	background: none;
+}
+textarea {
+	resize: none
+}
+input {
+	border: none 0;
+}
+input::-ms-clear {
+display:none;
+}
+a {
+	text-decoration: none
+}
+/*清浮动*/
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both
+}
+.clearfix {
+	zoom: 1
+}
+
+/*-----xiajun-ptzx-------------------------------------------------------*/
+.key_dis{
+	width:1800px;
+	margin:0px auto;
+	}
+#dl4 {
+	width: 1740px;
+	height: auto;
+	overflow: hidden;
+	float: left;
+	margin:10px 0px;
+	padding:30px;
+	background-color:#FFF;
+}
+#dl4 .Cont {
+	width:1680px;
+	float: left;
+	height: auto;
+	overflow: hidden;
+	margin-right:10px;
+}
+#dl4 .ScrCont {
+	width: 20000px;
+	height: auto;
+	float:left;
+}
+#dl4 .Cont .pic {
+	width:182px;
+	float: left;
+	height:auto;
+	text-align:center;
+	display:inline;
+}
+#dl4 .Cont .pic a{
+	width:182px;
+	float: left;
+	height:150px;
+	text-align:center;
+	overflow:hidden;
+	padding:10px 0px;
+}
+#dl4 .Cont .pic a img{
+	width:112px;
+	height:auto;
+	}
+#dl4 .Cont .pic span{
+	width:182px;
+	text-align:center;
+	float:left;
+	line-height:2em;
+	}
+#dl4 #List1, #dl4 #List2 {
+	float: left;
+}
+.ysbt{
+	float:left;
+	width:100%;
+	color:#FFF;
+	font-size:36px;
+	padding-top:50px;
+	}
+/*-------pop--------------------------*/
+/*-----------浮动层-------------------------------------*/
+.sample_popup {
+	z-index: 10;
+	width: auto;
+	float: left;
+	height: auto;
+	padding: 2px;
+	background: #999;
+}
+.sample_popup .sample_popup_1 {
+	float: left;
+	width: auto;
+	height: auto;
+	position: relative;
+}
+.sample_popup .sample_popup_1 h5, .sample_popup .sample_popup_2 h5 {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 11;
+	float: left;
+	line-height: 2;
+}
+.sample_popup .sample_popup_1 h5 .number_layer {
+	float: left;
+	font-size: 14px;
+}
+.sample_popup .sample_popup_1 h5 span.closed, .sample_popup .sample_popup_2 h5 span.closed {
+	float: right;
+	cursor: pointer;
+	display: inline;
+	z-index: +3;
+	color: #FFF;
+	font-size:45px;
+	background: red;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+	text-align:center;
+	line-height:100px;
+	margin:-50px -50px 0px 0px;
+}
+.layer {
+	float: left;
+	width: 1024px;
+	background: #ededed;
+	font-size: 12px;
+	height: auto;
+}
+.layer h6 {
+	float: left;
+	width: 1024px;
+	height: auto;
+	text-align:center;
+	font-size:30px;
+	line-height:80px;
+	background-color:#3a6bbf;
+	color:#FFF;
+}
+.layer .firend_list {
+	width: 954px;
+	float: left;
+	background: #fff;
+	height:auto;
+	overflow:hidden;
+	padding:35px;
+}
+.layer .firend_list p{
+	float:left;
+	width:100%;
+	line-height:1.5;
+	font-size:24px;
+	padding:10px 0px;
+	}
+.layer .firend_list p img{
+	float:left;
+	margin-right:10px;
+	}
+.layer .firend_list p.userpic{
+	width:457px;
+	height:150px;
+	padding:10px 10px;
+	overflow:hidden;
+	border-bottom:2px dotted #CCCCCC;
+	}
