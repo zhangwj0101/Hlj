@@ -4,72 +4,85 @@
         <title>黑龙江科技资源概况</title>
 		<meta charset="UTF-8" />
        	<link rel="stylesheet" type="text/css" href="css/main.css" />
-		<style type="text/css">
-		.common{
-			height:200px;
-			background-color:
-			white;opacity:0.01;
-			position: absolute;
-		}
-		.firstline{
-			width:280px;
-		}
-		.other{
-			width:200px;
-		}
-		  .fanhui{
-	        z-index: 10;
-	        position:absolute;
-	        top: 20px;
-	        left: 30px;
-	        background-color: white;
-	        border-radius: 5px;
-	        font-size: large;
-	        text-decoration: none;
-	        padding: 10px;
-	        box-shadow: 2px 2px 2px 2px;
-	        font-weight: 800;
-	        font-family: microsoft yahei;
-	        color: gray;
+          <style>
+            .common{
+      height:200px;
+      background-color:
+      white;opacity:0.01;
+      position: absolute;
+    }
+    .firstline{
+      width:280px;
+    }
+    .other{
+      width:200px;
+    }
+    .fanhui{
+        z-index: 10;
+        position:absolute;
+        top: 20px;
+        left: 30px;
+        background-color: white;
+        border-radius: 5px;
+        font-size: large;
+        text-decoration: none;
+        padding: 10px;
+        box-shadow: 2px 2px 2px 2px;
+        font-weight: 800;
+        font-family: microsoft yahei;
+        color: gray;
 
-	    }
-		</style>
-	</head>
-	<body >
-	<div id = 'mv' style="background-color: #e0e0e0;">
-	   <br/>
-	   <br/>
-	   <div id = 'title' style='text-align: center;display: none;position:absolute;top: 100px;left:60px;'>
-	  	 <span style='font-size:65px;color:#F00;font-weight:bolder;letter-spacing:10px;font-family:微软雅黑;'>科技创新城位于哈尔滨市中心城区西北部，松花江北岸</span>
-	   </div><br/><br/>
-	   <video style="overflow:hidden;" width= "1920" height="1000"  autoplay="autoplay" > 
-			<source src="a.mp4" type="video/mp4" /> 
-	   </video> 
-	</div>
+    }
+    </style>
+</head>
+	<body>
+    <div id = 'mv' style="background-color: #e0e0e0;">
+     <br/>
+     <br/>
+     <div id = 'title' style='text-align: center;display: none;position:absolute;top: 100px;left:60px;'>
+       <span style='font-size:65px;color:#F00;font-weight:bolder;letter-spacing:10px;font-family:微软雅黑;'>科技创新城位于哈尔滨市中心城区西北部，松花江北岸</span>
+     </div><br/><br/>
+     <video style="overflow:hidden;" width= "1920" height="1000"  autoplay="autoplay" > 
+      <source src="a.mp4" type="video/mp4" /> 
+     </video> 
+  </div>
+  
      <div class="hlj2" id='pic' style="display: none;">
-	      <a class="link_c1"><span>西至王万铁路界、肇东界</span></a>
-	      <a class="link_c2"><span>北至滨洲铁路</span></a>
-	      <a class="link_c3"><span>南起松花江、万宝镇后城村</span></a><a class="link_c4"><span>东起规划10路、世泽路、世坤路</span></a>
-	      <p class="wz1"><img src="images/5.png" width="25" height="25"  alt="科技大厦"/></p>
-	      <a class="link_c5" href="list2.html">科技大厦</a>
-	      <a class="link_c6">哈尔滨国际科技合作基地</a>
-	      <a class="link_c7">哈尔滨均信担保股份公司</a>
-	      <a class="link_c8">中科院哈尔滨育成中心</a>
-	      <a class="link_c9">电集团研发中心</a>
-	      <a href="index.html" class="fanhui">返回</a>
+     <a href="./index.html" class="fanhui">返回</a>
+      <!--<a class="link_c1"><span>西至王万铁路界、肇东界</span></a>
+      <a class="link_c2"><span>北至滨洲铁路</span></a>
+      <a class="link_c3"><span>南起松花江、万宝镇后城村</span></a><a class="link_c4"><span>东起规划10路、世泽路、世坤路</span></a>-->
+      <p class="wz1"><img src="images/5.png" width="40" height="39"  alt="科技大厦"/></p>
+      <a class="link_c5" href="list2.html">科技大厦</a>
+      <a class="link_c6">哈尔滨国际科技合作基地</a>
+      <a class="link_c7">哈尔滨均信担保股份公司</a>
+      <a class="link_c8">中科院哈尔滨育成中心</a>
+      <a class="link_c9">哈电集团研发中心</a>
+      <a class="link_c10">哈以孵化器</a>
+      <a class="link_c11">哈投大厦</a>
+      <a class="link_c12">省检验检疫中心</a>
+      <a class="link_c13">省农业科学创新中心</a>
+      <a class="link_c14">光产业技术及其装备研发中心</a>
+      <a class="link_c15">工大物联网技术研发中心</a>
+      <a class="link_c16">哈电表所</a>
+      <a class="link_c17">哈焊所</a>
+      <a class="link_c18">航天科技创新研发中心</a>
+      <a class="link_c19">电子所</a>
+      <a class="link_c20">中传媒</a>
+      <a class="link_c21">汉华</a>
      </div>
 
-	<script type="text/javascript">	
-		window.onload = function(){
-			 setTimeout(function () {
-	           document.getElementById("pic").style.display = "block";
-	           document.getElementById("mv").style.display = "none";
-	           // document.getElementById("title").style.display = "none";
-	        }, 29000);
-			 setTimeout(function () {
-	           document.getElementById("title").style.display = "block";
-	        }, 16000);
-		}
-	</script>
+  <script type="text/javascript"> 
+    window.onload = function(){
+       setTimeout(function () {
+             document.getElementById("pic").style.display = "block";
+             document.getElementById("mv").style.display = "none";
+             // document.getElementById("title").style.display = "none";
+          }, 29000);
+       setTimeout(function () {
+             document.getElementById("title").style.display = "block";
+          }, 16000);
+    }
+  </script>
 	</body>
 </html>	

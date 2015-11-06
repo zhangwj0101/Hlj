@@ -192,14 +192,18 @@ li {
 }
 .hlj2 .wz1 {
 	position: absolute;
-	top: 400px;
+	top:370px;
 	left: 1235px;
 }
+/*--.hlj2 a{
+	border:1px solid #F00;
+	font-size:36px;
+	}--*/
 .hlj2 .link_c5 {
 	position: absolute;
-	width: 30px;
-	height: 50px;
-	top: 420px;
+	width: 130px;
+	height:70px;
+	top: 400px;
 	left: 1235px;
 	display: block;
 	line-height: 20000px;
@@ -209,23 +213,23 @@ li {
 .hlj2 .link_c5:hover {
 	position: absolute;
 	width: auto;
-	height: 20px;
-	top: 420px;
+	height: auto;
+	top: 400px;
 	left: 1235px;
 	background: url(../images/city1.png) left bottom no-repeat;
 	display: block;
 	color: #FFF;
-	padding: 10px 0px 15px 50px;
+	padding: 30px 0px 15px 50px;
 	text-align: right;
 	line-height: normal;
-	font-size: 18px;
+	font-size:28px;
 }
 .hlj2 .link_c6 {
 	position: absolute;
-	width: 220px;
+	width: 300px;
 	height: 20px;
 	top: 530px;
-	left: 1605px;
+	left: 1505px;
 	display: block;
 	line-height: 20000px;
 	overflow: hidden;
@@ -234,16 +238,16 @@ li {
 .hlj2 .link_c6:hover {
 	position: absolute;
 	width: auto;
-	height: 20px;
+	height: auto;
 	top: 530px;
-	left: 1605px;
+	left: 1505px;
 	background: url(../images/city1.png) left bottom no-repeat;
 	display: block;
 	color: #FFF;
 	padding: 10px 0px 15px 50px;
 	text-align: right;
 	line-height: normal;
-	font-size: 18px;
+	font-size:28px;
 }
 .hlj2 .link_c7 {
 	position: absolute;
@@ -259,7 +263,7 @@ li {
 .hlj2 .link_c7:hover {
 	position: absolute;
 	width: auto;
-	height: 20px;
+	height: auto;
 	top: 620px;
 	left: 1505px;
 	background: url(../images/city1.png) left bottom no-repeat;
@@ -268,7 +272,7 @@ li {
 	padding: 10px 0px 15px 30px;
 	text-align: right;
 	line-height: normal;
-	font-size: 18px;
+	font-size:30px;
 }
 .hlj2 .link_c8 {
 	position: absolute;
@@ -284,7 +288,7 @@ li {
 .hlj2 .link_c8:hover {
 	position: absolute;
 	width: auto;
-	height: 20px;
+	height: auto;
 	top: 720px;
 	left: 1275px;
 	background: url(../images/city1.png) left bottom no-repeat;
@@ -293,7 +297,7 @@ li {
 	padding: 10px 0px 15px 50px;
 	text-align: right;
 	line-height: normal;
-	font-size: 18px;
+	font-size:30px;
 }
 .hlj2 .link_c9 {
 	position: absolute;
@@ -309,7 +313,7 @@ li {
 .hlj2 .link_c9:hover {
 	position: absolute;
 	width: auto;
-	height: 20px;
+	height: auto;
 	top: 590px;
 	left: 640px;
 	background: url(../images/city1.png) left bottom no-repeat;
@@ -318,7 +322,307 @@ li {
 	padding: 10px 0px 15px 50px;
 	text-align: right;
 	line-height: normal;
-	font-size: 18px;
+	font-size:30px;
+}
+.hlj2 .link_c10 {
+	position: absolute;
+	width:320px;
+	height:40px;
+	top:820px;
+	left: 1140px;
+	display: block;
+	line-height: 20000px;
+	overflow: hidden;
+	padding: 10px 0px 15px 50px;
+}
+.hlj2 .link_c10:hover {
+	position: absolute;
+	width:320px;
+	height: 40px;
+	top:820px;
+	left: 1140px;
+	background: url(../images/city1.png) left bottom no-repeat;
+	display: block;
+	color: #FFF;
+	padding: 10px 0px 15px 50px;
+	text-align:lefr;
+	line-height: normal;
+	font-size:30px;
+}
+.hlj2 .link_c11 {
+	position: absolute;
+	width: 100px;
+	height: 60px;
+	top: 490px;
+	left: 1235px;
+	display: block;
+	line-height: 20000px;
+	overflow: hidden;
+	text-decoration: none;
+}
+.hlj2 .link_c11:hover {
+	position: absolute;
+	width: auto;
+	height: auto;
+	top: 490px;
+	left: 1235px;
+	background: url(../images/city1.png) left bottom no-repeat;
+	display: block;
+	color: #FFF;
+	padding: 10px 0px 15px 50px;
+	text-align: right;
+	line-height: normal;
+	font-size:28px;
+}
+.hlj2 .link_c12 {
+	position: absolute;
+	width: 100px;
+	height: 60px;
+	top: 490px;
+	left: 1385px;
+	display: block;
+	line-height: 20000px;
+	overflow: hidden;
+	text-decoration: none;
+}
+.hlj2 .link_c12:hover {
+	position: absolute;
+	width: auto;
+	height: auto;
+	top: 490px;
+	left: 1385px;
+	background: url(../images/city1.png) left bottom no-repeat;
+	display: block;
+	color: #FFF;
+	padding: 10px 0px 15px 50px;
+	text-align: right;
+	line-height: normal;
+	font-size:28px;
+}
+.hlj2 .link_c13 {
+	position: absolute;
+	width:60px;
+	height:55px;
+	top: 410px;
+	left: 1140px;
+	display: block;
+	line-height: 20000px;
+	overflow: hidden;
+	text-decoration: none;
+}
+.hlj2 .link_c13:hover {
+	position: absolute;
+	width: auto;
+	height: auto;
+	top: 410px;
+	left: 1140px;
+	background: url(../images/city1.png) left bottom no-repeat;
+	display: block;
+	color: #FFF;
+	padding: 10px 0px 15px 50px;
+	text-align: right;
+	line-height: normal;
+	font-size:28px;
+}
+.hlj2 .link_c14 {
+	position: absolute;
+	width: 120px;
+	height:50px;
+	top: 500px;
+	left:440px;
+	display: block;
+	line-height: 20000px;
+	overflow: hidden;
+	padding: 10px 0px 15px 50px;
+}
+.hlj2 .link_c14:hover {
+	position: absolute;
+	width: auto;
+	height: auto;
+	top: 500px;
+	left:440px;
+	background: url(../images/city1.png) left bottom no-repeat;
+	display: block;
+	color: #FFF;
+	padding: 20px 0px 15px 50px;
+	text-align: right;
+	line-height: normal;
+	font-size:30px;
+}
+.hlj2 .link_c15 {
+	position: absolute;
+	width: 120px;
+	height:50px;
+	top:400px;
+	left:320px;
+	display: block;
+	line-height: 20000px;
+	overflow: hidden;
+	padding: 10px 0px 15px 50px;
+}
+.hlj2 .link_c15:hover {
+	position: absolute;
+	width: auto;
+	height: auto;
+	top: 400px;
+	left:320px;
+	background: url(../images/city1.png) left bottom no-repeat;
+	display: block;
+	color: #FFF;
+	padding: 20px 0px 15px 50px;
+	text-align: right;
+	line-height: normal;
+	font-size:30px;
+}
+.hlj2 .link_c16 {
+	position: absolute;
+	width:60px;
+	height:30px;
+	top:340px;
+	left:200px;
+	display: block;
+	line-height: 20000px;
+	overflow: hidden;
+	padding: 10px 0px 15px 50px;
+}
+.hlj2 .link_c16:hover {
+	position: absolute;
+	width: auto;
+	height: auto;
+	top:340px;
+	left:200px;
+	background: url(../images/city1.png) left bottom no-repeat;
+	display: block;
+	color: #FFF;
+	padding: 10px 0px 15px 50px;
+	text-align: right;
+	line-height: normal;
+	font-size:30px;
+}
+.hlj2 .link_c17 {
+	position: absolute;
+	width:60px;
+	height:30px;
+	top:310px;
+	left:320px;
+	display: block;
+	line-height: 20000px;
+	overflow: hidden;
+	padding: 10px 0px 15px 50px;
+}
+.hlj2 .link_c17:hover {
+	position: absolute;
+	width: auto;
+	height: auto;
+	top:310px;
+	left:320px;
+	background: url(../images/city1.png) left bottom no-repeat;
+	display: block;
+	color: #FFF;
+	padding: 10px 0px 15px 50px;
+	text-align: right;
+	line-height: normal;
+	font-size:30px;
+}
+.hlj2 .link_c18 {
+	position: absolute;
+	width:60px;
+	height:20px;
+	top:460px;
+	left:680px;
+	display: block;
+	line-height: 20000px;
+	overflow: hidden;
+	padding: 10px 0px 15px 50px;
+}
+.hlj2 .link_c18:hover {
+	position: absolute;
+	width: auto;
+	height: auto;
+	top:460px;
+	left:680px;
+	background: url(../images/city1.png) left bottom no-repeat;
+	display: block;
+	color: #FFF;
+	padding: 10px 0px 15px 50px;
+	text-align: right;
+	line-height: normal;
+	font-size:30px;
+}
+.hlj2 .link_c19 {
+	position: absolute;
+	width:30px;
+	height:20px;
+	top:410px;
+	left:760px;
+	display: block;
+	line-height: 20000px;
+	overflow: hidden;
+	padding: 10px 0px 15px 50px;
+}
+.hlj2 .link_c19:hover {
+	position: absolute;
+	width: auto;
+	height: auto;
+	top:410px;
+	left:760px;
+	background: url(../images/city1.png) left bottom no-repeat;
+	display: block;
+	color: #FFF;
+	padding: 10px 0px 15px 50px;
+	text-align: right;
+	line-height: normal;
+	font-size:30px;
+}
+.hlj2 .link_c20 {
+	position: absolute;
+	width:90px;
+	height:60px;
+	top:455px;
+	left:795px;
+	display: block;
+	line-height: 20000px;
+	overflow: hidden;
+	padding: 10px 0px 15px 50px;
+}
+.hlj2 .link_c20:hover {
+	position: absolute;
+	width: auto;
+	height: auto;
+	top:455px;
+	left:795px;
+	background: url(../images/city1.png) left bottom no-repeat;
+	display: block;
+	color: #FFF;
+	padding: 40px 0px 15px 50px;
+	text-align: right;
+	line-height: normal;
+	font-size:30px;
+}
+.hlj2 .link_c21 {
+	position: absolute;
+	width:20px;
+	height:30px;
+	top:405px;
+	left:965px;
+	display: block;
+	line-height: 20000px;
+	overflow: hidden;
+	padding: 10px 0px 15px 50px;
+}
+.hlj2 .link_c21:hover {
+	position: absolute;
+	width: auto;
+	height: auto;
+	top:405px;
+	left:965px;
+	background: url(../images/city1.png) left bottom no-repeat;
+	display: block;
+	color: #FFF;
+	padding: 20px 0px 15px 50px;
+	text-align: right;
+	line-height: normal;
+	font-size:30px;
 }
 /*---------edifice---------edifice---*/
 .hlj3 {
@@ -331,10 +635,12 @@ li {
 	position: absolute;
 	width: auto;
 	height: auto;
-	left: 500px;
-	top: 50px;
+	left:90px;
+	top: 100px;
 	color: #FFF;
 	font-size: 36px;
+	background:url(../images/gaodu.png) bottom center no-repeat;
+	padding-bottom:850px;
 }
 .hlj3 ul {
 	float: left;
@@ -493,12 +799,13 @@ li {
 }
 /*-------------ptfw-----ptfw----------*/
 .ptfw {
-	background: url(../images/ptfw.png) left top no-repeat;
+	background: url(../images/ptfw.png) left center no-repeat;
 	float: right;
 	width: 700px;
 	height: 700px;
-	margin: 150px 240px 0px 0px;
+	margin: 400px 240px 0px 0px;
 	position: relative;
+	display:inline;
 }
 .ptfw a {
 	display: block;
