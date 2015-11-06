@@ -28,7 +28,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body style="background-image:url('images/bg.jpg')" onload="generateMap('servlet/FindAccelerateCenterAction','map','normal','');">
-    <div style="top:10px;"><h2 style="width:100%;text-align:center;font-size:40px;"><font color=#ffffff>黑龙江省生产力促进中心</h2></font></div>
+    <div style="position:relative;top:13px;top:10px;"><h2 style="width:100%;text-align:center;font-size:40px;letter-spacing:25px"><font color=#ffffff>黑龙江省生产力促进中心</h2></font></div>
 	<div id="barshow" style="float:left;width:30%;min-height:90%;"></div>
 	<div id="map" style="max-width:70%;min-height:90%;margin:0px auto;"></div>
 	<div id="jump" style="top:10px;left:10px;position:absolute;z-index:10000"><a href="hlj_V2/cat/index.html"><input type="button" value="返回" style="width:70px;height:35px;font-size:18px;"/></a></div>
@@ -61,7 +61,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				        {
 				            type : 'category',
 				            splitLine: {show:false},
-				            data : ['省级','国家级'],
+				            data : ['其他','省级','国家级'],
 				            axisLabel:{
                             	interval:0,
                             	textStyle:{
@@ -106,13 +106,26 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				            	}
 				            },
 				            barWidth:80,
-				            data:[{
+				            data:[
+								{
+									value:97,
+									itemStyle : { 
+								    	normal: {
+								    		label : {
+								    			show: true,
+								    			position: 'right'
+								    		},
+								    		color:'rgba(255,0,0,1)'
+								    	}
+								    }
+								},
+				                {
 				            		value:8,
 					            	itemStyle : { 
 						            	normal: {
 						            		label : {
 						            			show: true,
-						            			position: 'inside'
+						            			position: 'right'
 						            		},
 						            		color:'rgba(50,94,218,1)'
 						            	}
@@ -124,7 +137,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						            	normal: {
 						            		label : {
 						            			show: true,
-						            			position: 'inside'
+						            			position: 'right'
 						            		},
 						            		color:'rgba(50,218,70,1)'
 						            	}

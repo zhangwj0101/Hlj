@@ -28,7 +28,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body style="background-image:url('images/bg.jpg')"  onload="generateMap('servlet/FindIncubatorAction','map','normal');">
-    <div style="top:10px;"><h2 style="width:100%;text-align:center;font-size:40px;"><font color=#ffffff>黑龙江省孵化器分布</h2></font></div>
+    <div style="position:relative;top:13px;"><h2 style="width:100%;text-align:center;font-size:40px;letter-spacing:25px"><font color=#ffffff>黑龙江科技企业孵化器分布</h2></font></div>
 	<div id="barshow" style="float:left;width:30%;min-height:90%;"></div>
 	<div id="map" style="max-width:70%;min-height:90%;margin:0px auto;"></div>
 	<div id="jump" style="top:10px;left:10px;position:absolute;"><a href="hlj_V2/cat/index.html"><input type="button" value="返回" style="width:70px;height:35px;font-size:18px;"/></a></div>
@@ -86,8 +86,113 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				            name:'孵化器',
 				            type:'bar',
 				            stack: '总量',
-				            itemStyle : { normal: {label : {show: true, position: 'inside'}}},
-				            data:[1, 1, 1, 1, 1, 2, 2, 3, 4, 4, 8,16,40]
+				            itemStyle : { normal: {label : {show: true, position: 'right',textStyle:{fontSize:20,fontWeight:'bolder'}}}},
+				            data:[
+				                  {
+					            		value:1,
+						            	itemStyle : { 
+							            	normal: {
+							            		color:'rgba(255,105,180,1)'
+							            	}
+							            }
+							        },
+							        {
+					            		value:1,
+						            	itemStyle : { 
+							            	normal: {
+							            		color:'rgba(255,105,180,1)'
+							            	}
+							            }
+							        },
+							        {
+					            		value:1,
+						            	itemStyle : { 
+							            	normal: {
+							            		color:'rgba(255,105,180,1)'
+							            	}
+							            }
+							        },
+							        {
+					            		value:1,
+						            	itemStyle : { 
+							            	normal: {
+							            		color:'rgba(255,105,180,1)'
+							            	}
+							            }
+							        },
+							        {
+					            		value:1,
+						            	itemStyle : { 
+							            	normal: {
+							            		color:'rgba(255,105,180,1)'
+							            	}
+							            }
+							        },
+							        {
+					            		value:2,
+						            	itemStyle : { 
+							            	normal: {
+							            		color:'rgba(0,255,0,1)'
+							            	}
+							            }
+							        },
+							        {
+					            		value:2,
+						            	itemStyle : { 
+							            	normal: {
+							            		color:'rgba(0,255,0,1)'
+							            	}
+							            }
+							        },
+							        {
+					            		value:3,
+						            	itemStyle : { 
+							            	normal: {
+							            		color:'rgba(0,0,255,1)'
+							            	}
+							            }
+							        },
+							        {
+					            		value:4,
+						            	itemStyle : { 
+							            	normal: {
+							            		color:'rgba(255,255,0,1)'
+							            	}
+							            }
+							        },
+							        {
+					            		value:4,
+						            	itemStyle : { 
+							            	normal: {
+							            		color:'rgba(255,255,0,1)'
+							            	}
+							            }
+							        },
+							        {
+					            		value:8,
+						            	itemStyle : { 
+							            	normal: {
+							            		color:'rgba(255,120,0,1)'
+							            	}
+							            }
+							        },
+							        {
+					            		value:16,
+						            	itemStyle : { 
+							            	normal: {
+							            		color:'rgba(0,191,255,1)'
+							            	}
+							            }
+							        },
+							        {
+					            		value:40,
+						            	itemStyle : { 
+							            	normal: {
+							            		color:'rgba(255,0,0,1)'
+							            	}
+							            }
+							        }
+				                  ]
 				        }
 				    ]
 				};

@@ -2,7 +2,7 @@
 <DBConnection>
 	<jdbcDriver>com.mysql.jdbc.Driver</jdbcDriver>
 	<dbName>hljdata</dbName>
-	<urlRoot>jdbc:mysql://10.2.4.180:3306/hljdata?useUnicode=true&amp;characterEncoding=UTF-8</urlRoot>
+	<urlRoot>jdbc:mysql://localhost:3306/hljdata?useUnicode=true&amp;characterEncoding=UTF-8</urlRoot>
 	<username>test</username>
 	<password>test</password>
 </DBConnection>

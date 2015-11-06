@@ -46,7 +46,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
      <input type="hidden"  id="itemid"  name="itemid"  value="" />
 	</form>
     
-    <div style="top:10px;"><h2 style="width:100%;text-align:center;font-size:40px;"><font color=#ffffff>黑龙江省产业技术创新战略联盟</h2></font></div>
+    <div style="position:relative;top:13px;"><h2 style="width:100%;text-align:center;font-size:40px;letter-spacing:25px;"><font color=#ffffff>黑龙江省产业技术创新战略联盟</h2></font></div>
 	<div id="barshow" style="overflow:auto;position:absolute;left:20px;width:30%;height:90%;"></div>
 	<div id="map" style="overflow:auto;position:absolute;left:590px;width:68%;height:90%;margin:0px auto;text-align:center"></div>
 	<div id="jump" style="top:10px;left:10px;position:absolute;"><a href="hlj_V2/cat/index.html"><input type="button" value="返回" style="width:70px;height:35px;font-size:18px;"/></a></div>
@@ -131,7 +131,66 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			            		color:'rgba(60,179,113,0.9)'
 			            	}
 			            },
-			            data:['1','2','2','3','4','7','8','16']
+			            data:[
+			                  {
+				            		value:1,
+					            	itemStyle : { 
+						            	normal: {
+						            		color:'rgba(255,0,0,1)'
+						            	}
+						            }
+						       },
+						       {
+				            		value:2,
+					            	itemStyle : { 
+						            	normal: {
+						            		color:'rgba(0,255,0,1)'
+						            	}
+						            }
+						       },{
+				            		value:2,
+					            	itemStyle : { 
+						            	normal: {
+						            		color:'rgba(0,255,0,1)'
+						            	}
+						            }
+						       },{
+				            		value:3,
+					            	itemStyle : { 
+						            	normal: {
+						            		color:'rgba(0,0,255,1)'
+						            	}
+						            }
+						       },{
+				            		value:4,
+					            	itemStyle : { 
+						            	normal: {
+						            		color:'rgba(255,255,0,1)'
+						            	}
+						            }
+						       },{
+				            		value:7,
+					            	itemStyle : { 
+						            	normal: {
+						            		color:'rgba(255,105,180,1)'
+						            	}
+						            }
+						       },{
+				            		value:8,
+					            	itemStyle : { 
+						            	normal: {
+						            		color:'rgba(255,100,0,0.9)'
+						            	}
+						            }
+						       },{
+				            		value:16,
+					            	itemStyle : { 
+						            	normal: {
+						            		color:'rgba(255,0,0,1)'
+						            	}
+						            }
+						       }
+			            ]
 			        }
 			    ]
 			};

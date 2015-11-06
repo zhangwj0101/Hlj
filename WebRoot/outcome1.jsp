@@ -29,7 +29,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body  style="background-image:url('images/bg.jpg')" >
-    <div style="top:10px;"><h2 style="width:100%;text-align:center;font-size:40px;"><font color=#ffffff>黑龙江省成果奖励统计</h2></font></div>
+    <div style="position:relative;top:13px;"><h2 style="width:100%;text-align:center;font-size:40px;letter-spacing:25px;"><font color=#ffffff>黑龙江省成果奖励统计</h2></font></div>
 	<div id="barshow" style="position:absolute;left:60px;top:120px;float:left;width:950px;min-height:950px"></div>
 	<div id="map" style="left:960px;top:120px;position:absolute;width:960px;height:870px;margin:0px auto;display:"></div>
 	<div id="map1" style="left:960px;top:120px;position:absolute;width:960px;height:870px;margin:0px auto;display:none;"></div>

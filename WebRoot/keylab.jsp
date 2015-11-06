@@ -28,7 +28,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body  style="background-image:url('images/bg.jpg')" >
-    <div style="top:10px;"><h2 style="width:100%;text-align:center;font-size:40px;"><font color=#ffffff>黑龙江省重点实验室统计</h2></font></div>
+    <div style="position:relative;top:13px;"><h2 style="width:100%;text-align:center;font-size:40px;letter-spacing:25px"><font color=#ffffff>黑龙江省重点实验室统计</h2></font></div>
 	<div id="barshow" style="float:left;width:98%;min-height:90%;"></div>
 	<div id="jump" style="top:10px;left:10px;position:absolute;"><a href="hlj_V2/cat/index.html"><input type="button" value="返回" style="width:70px;height:35px;font-size:18px;"/></a></div>
     <script src="build/dist/echarts.js"></script>
@@ -62,11 +62,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				    },
 				    backgroundColor:'rgba(255,255,255,1)',
 				    legend:{
-				    	data:['全部','国家级','省级'],
+				    	data:['国家级','省级'],
 				    	textStyle:{
 				    		fontSize:40,
 				    		fontWeight:'bolder'
-				    	}
+				    	},
+				    	x:'center',
+				    	y:16
 				    },
 				    xAxis : [
 				        {
@@ -99,23 +101,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				        }
 				    ],
 				    series : [
-				        {
-				            name:'全部',
-				            type:'bar',
-				            itemStyle : { 
-				            	normal: {
-				            		label : {
-				            			show: true,
-				            			position: 'top',
-				            			textStyle:{
-				            				fontSize:20
-				            			}
-				            		}
-				            	}
-				            },
-				            barMaxWidth:80,
-				            data:[51,34,10,2]
-				        },
 				        {
 				            name:'国家级',
 				            type:'bar',

@@ -29,7 +29,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body style="background-image:url('images/bg.jpg')"  onload="generateMap('servlet/FindSpecialBaseAction','map','normal');">
-    <div style="top:10px;"><h2 style="width:100%;text-align:center;font-size:40px;"><font color=#ffffff>黑龙江省特色产业基地分布</h2></font></div>
+    <div style="position:relative;top:13px;"><h2 style="width:100%;text-align:center;font-size:40px;letter-spacing:25px;"><font color=#ffffff>黑龙江省特色产业基地分布</h2></font></div>
 	<div id="barshow" style="float:left;width:30%;min-height:90%;"></div>
 	<div id="map" style="max-width:70%;min-height:90%;margin:0px auto;"></div>
 	<div id="jump" style="top:10px;left:10px;position:absolute;"><a href="hlj_V2/cat/index.html"><input type="button" value="返回" style="width:70px;height:35px;font-size:18px;"/></a></div>
@@ -124,7 +124,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						            			show: true,
 						            			position: 'inside'
 						            		},
-						            		color:'rgba(23,50,7,1)'
+						            		color:'rgba(0,0,200,1)'
 						            	}
 						            }
 						        },
@@ -136,7 +136,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						            			show: true,
 						            			position: 'inside'
 						            		},
-						            		color:'rgba(153,77,82,1)'
+						            		color:'rgba(0,200,0,1)'
 						            	}
 						            }
 						        },
@@ -148,7 +148,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						            			show: true,
 						            			position: 'inside'
 						            		},
-						            		color:'rgba(217,116,43,1)'
+						            		color:'rgba(255,0,0,1)'
 						            	}
 						            }
 						        }
