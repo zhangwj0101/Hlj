@@ -29,7 +29,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body  style="background-image:url('images/bg.jpg')" >
-    <div style="position:relative;top:13px;"><h2 style="width:100%;text-align:center;font-size:40px;letter-spacing:25px;"><font color=#ffffff>黑龙江省重点实验室统计</h2></font></div>
+    <div style="position:relative;top:13px;"><h2 style="width:100%;text-align:center;font-size:40px;letter-spacing:25px;"><font color=#ffffff>黑龙江省重点实验室情况</h2></font></div>
 	<div id="barshow" style="float:left;width:100%;min-height:93%;text-align:center;"></div>
 	<div id="jump" style="top:10px;left:10px;position:absolute;"><a href="hlj_V2/cat/index.html"><input type="button" value="返回" style="width:70px;height:35px;font-size:18px;"/></a></div>
    	<div style="position: absolute; top: 1020px; right: 673px;"><span style="font-size: 32px;font-weight: bold;"><font color=#ffffff>2010-2013年黑龙江省重点实验室统计</font></span></div>

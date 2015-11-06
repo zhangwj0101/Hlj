@@ -10,7 +10,7 @@
         <category label='试验发展' />  
     </categories> 
     
-    <dataset seriesName='2010' color="AFD8F8">  
+    <dataset seriesName='2010' color="FF0000">  
         <set value='61854' />  
         <set value='38587' />  
         <set value='7408' />  
@@ -18,7 +18,7 @@
         <set value='46052' />
     </dataset>
     
-    <dataset seriesName='2011' color="F6BD0F">  
+    <dataset seriesName='2011' color="00FF00">  
         <set value='66599' />  
         <set value='42883' />  
         <set value='7691' />  
@@ -26,7 +26,7 @@
         <set value='50494' />
     </dataset>
     
-    <dataset seriesName='2012' color="8BBA00">  
+    <dataset seriesName='2012' color="0000FF">  
         <set value='65118' />  
         <set value='41196' />  
         <set value='10168' />  
@@ -34,7 +34,7 @@
         <set value='46233' />
     </dataset>
     
-    <dataset seriesName='2013' color="B3AA00">  
+    <dataset seriesName='2013' color="FFAA00">  
         <set value='62660' />  
         <set value='41050' />  
         <set value='10476' />  
