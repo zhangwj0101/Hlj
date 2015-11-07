@@ -26,6 +26,24 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.3"></script>
 	<script type="text/javascript" src="JSClass/FusionCharts.js"></script>
+	<style type="text/css">
+		 .fanhui{
+	        z-index: 10;
+            position:absolute;
+            top: 10px;
+            left: 10px;
+            background-color:#F90;
+            border-radius: 5px;
+            font-size: 28;
+            text-decoration: none;
+            padding:10px 40px;
+            box-shadow: 1px 1px 1px 1px;
+            font-weight: 800;
+            font-family: microsoft yahei;
+            color:#fff;
+
+	    }
+	</style>
   </head>
   
   <body  style="background-image:url('images/bg.jpg')" >
@@ -33,7 +51,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<div id="barshow" style="position:absolute;left:60px;top:120px;float:left;width:950px;min-height:950px"></div>
 	<div id="map" style="left:960px;top:120px;position:absolute;width:960px;height:870px;margin:0px auto;display:"></div>
 	<div id="map1" style="left:960px;top:120px;position:absolute;width:960px;height:870px;margin:0px auto;display:none;"></div>
-	<div id="jump" style="top:10px;left:10px;position:absolute;"><a href="hlj_V2/cat/index.html"><input type="button" value="返回" style="width:70px;height:35px;font-size:18px;"/></a></div>
+	<a href="hlj_V2/cat/index.html" class="fanhui">返回</a>
 	<div id="level1" style="top:60px;left:1400px;position:absolute;"><a href="javascript:show(2);"><input type="button" value="国家级" style="width:70px;height:35px;font-size:18px;"/></a></div>
 	<div id="level2" style="top:60px;left:1500px;position:absolute;"><a href="javascript:show(1);"><input type="button" value="省级" style="width:70px;height:35px;font-size:18px;"/></a></div>
 	<div style="position: absolute; top: 1020px; left: 112px;"><span style="font-size: 32px;font-weight: bold;">2010年-2014年黑龙江省高新技术成果领域分布情况</span></div>

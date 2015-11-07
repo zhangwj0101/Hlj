@@ -25,13 +25,31 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <script type="text/javascript" src="js/jquery-ui.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script src="http://api.map.baidu.com/api?v=1.3" type="text/javascript"></script>
+	<style type="text/css">
+		 .fanhui{
+	        z-index: 10;
+            position:absolute;
+            top: 10px;
+            left: 10px;
+            background-color:#F90;
+            border-radius: 5px;
+            font-size: 28;
+            text-decoration: none;
+            padding:10px 40px;
+            box-shadow: 1px 1px 1px 1px;
+            font-weight: 800;
+            font-family: microsoft yahei;
+            color:#fff;
+
+	    }
+	</style>
   </head>
   
   <body style="background-image:url('images/bg.jpg')"  onload="generateMap('servlet/FindResearchOrgAction','map','small');">
     <div style="position:relative;top:13px;"><h2 style="width:100%;text-align:center;font-size:40px;letter-spacing:25px;"><font color=#ffffff>黑龙江省科研院所分布情况</h2></font></div>
 	<div id="barshow" style="float:left;width:30%;min-height:93%;display:none;"></div>
 	<div id="map" style="max-width:95%;min-height:90%;margin:0px auto;"></div>
-	<div id="jump" style="top:10px;left:10px;position:absolute;"><a href="hlj_V2/cat/index.html"><input type="button" value="返回" style="width:70px;height:35px;font-size:18px;"/></a></div>
+	<a href="hlj_V2/cat/index.html" class="fanhui">返回</a>
     <div id="search" style="width:980px;height:958px;top:87px;left:30px;position:absolute;display:none;">
 		<div id="close" style="top:14px;left:-58px;position:absolute;width:980px;text-align:right;"><a href="javascript:hide()"><input type="button" value="关闭" style="width:55px;height:26px;font-size:14px;"/></a></div>
 		<iframe id="iframe" name="layer_iframe" src=""

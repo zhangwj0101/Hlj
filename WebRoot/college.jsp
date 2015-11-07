@@ -25,6 +25,24 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <script type="text/javascript" src="js/jquery-ui.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script src="http://api.map.baidu.com/api?v=1.3" type="text/javascript"></script>
+	<style type="text/css">
+		 .fanhui{
+	        z-index: 10;
+            position:absolute;
+            top: 10px;
+            left: 10px;
+            background-color:#F90;
+            border-radius: 5px;
+            font-size: 28;
+            text-decoration: none;
+            padding:10px 40px;
+            box-shadow: 1px 1px 1px 1px;
+            font-weight: 800;
+            font-family: microsoft yahei;
+            color:#fff;
+
+	    }
+	</style>
   </head>
   
   <body  style="background-image:url('images/bg.jpg')" onload="generateMap('servlet/FindCollegeAction','map','normal');">
@@ -36,7 +54,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<iframe id="iframe" name="layer_iframe" src=""
 			scrolling="yes" height="100%" width="100%" frameborder="0"></iframe>
 	</div>
-	<div id="jump" style="top:10px;left:10px;position:absolute;"><a href="hlj_V2/cat/index.html"><input type="button" value="返回" style="width:70px;height:35px;font-size:18px;"/></a></div>
+	<a href="hlj_V2/cat/index.html" class="fanhui">返回</a>
     <script src="build/dist/echarts.js"></script>
     <script type="text/javascript">
         // 路径配置

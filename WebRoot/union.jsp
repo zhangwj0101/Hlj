@@ -38,6 +38,24 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		$("table td:last-child, table th:last-child").addClass("last");
      });
     </script>
+    <style type="text/css">
+		 .fanhui{
+	        z-index: 10;
+            position:absolute;
+            top: 10px;
+            left: 10px;
+            background-color:#F90;
+            border-radius: 5px;
+            font-size: 28;
+            text-decoration: none;
+            padding:10px 40px;
+            box-shadow: 1px 1px 1px 1px;
+            font-weight: 800;
+            font-family: microsoft yahei;
+            color:#fff;
+
+	    }
+	</style>
   </head>
   
   <body style="background-image:url('images/bg.jpg')" >
@@ -49,7 +67,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <div style="position:relative;top:13px;"><h2 style="width:100%;text-align:center;font-size:40px;letter-spacing:25px;"><font color=#ffffff>黑龙江省产业技术创新战略联盟</h2></font></div>
 	<div id="barshow" style="overflow:auto;position:absolute;left:20px;width:30%;height:90%;"></div>
 	<div id="map" style="overflow:auto;position:absolute;left:590px;width:68%;height:90%;margin:0px auto;text-align:center"></div>
-	<div id="jump" style="top:10px;left:10px;position:absolute;"><a href="hlj_V2/cat/index.html"><input type="button" value="返回" style="width:70px;height:35px;font-size:18px;"/></a></div>
+	<a href="hlj_V2/cat/index.html" class="fanhui">返回</a>
     <script src="build/dist/echarts.js"></script>
     <script type="text/javascript">
         // 路径配置
