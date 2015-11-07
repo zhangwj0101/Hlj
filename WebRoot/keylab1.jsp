@@ -26,12 +26,30 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="JSClass/FusionCharts.js"></script>
 	<script src="http://api.map.baidu.com/api?v=1.3" type="text/javascript"></script>
+	<style type="text/css">
+		 .fanhui{
+	        z-index: 10;
+            position:absolute;
+            top: 10px;
+            left: 10px;
+            background-color:#F90;
+            border-radius: 5px;
+            font-size: 28;
+            text-decoration: none;
+            padding:10px 40px;
+            box-shadow: 1px 1px 1px 1px;
+            font-weight: 800;
+            font-family: microsoft yahei;
+            color:#fff;
+
+	    }
+	</style>
   </head>
   
   <body  style="background-image:url('images/bg.jpg')" >
     <div style="position:relative;top:13px;"><h2 style="width:100%;text-align:center;font-size:40px;letter-spacing:25px;"><font color=#ffffff>黑龙江省重点实验室情况</h2></font></div>
 	<div id="barshow" style="float:left;width:100%;min-height:93%;text-align:center;"></div>
-	<div id="jump" style="top:10px;left:10px;position:absolute;"><a href="hlj_V2/cat/index.html"><input type="button" value="返回" style="width:70px;height:35px;font-size:18px;"/></a></div>
+	<a href="hlj_V2/cat/index.html" class="fanhui">返回</a>
    	<div style="position: absolute; top: 1020px; right: 673px;"><span style="font-size: 32px;font-weight: bold;"><font color=#ffffff>2010-2013年黑龙江省重点实验室统计</font></span></div>
 	<script type="text/javascript">
         var myChart = new FusionCharts("Charts/MSColumn3D.swf","pie01","1880","900");
