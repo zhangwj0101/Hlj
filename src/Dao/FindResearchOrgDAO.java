@@ -15,7 +15,7 @@ public class FindResearchOrgDAO {
 		ResultSet rs = null;
 		Vector<ResearchOrg> researchOrgs = new Vector<ResearchOrg>();
 		try {
-			String sql = " select id,name,district,x,y,link from college ";
+			String sql = " select id,name,address,x,y,link from researchorg ";
 			rs = db.sm.executeQuery(sql);
 			while (rs.next()) {
 				researchOrgs.addElement(new ResearchOrg(rs.getInt(1), rs
