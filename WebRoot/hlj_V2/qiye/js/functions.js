@@ -88,6 +88,135 @@ jQuery(function() {
 				thumb       : "images/9.jpg", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
+			},{
+				display     : "image", // image, map, video
+				title       : "Nex", // image title
+				description : "Speed Optimized", // image description
+				link        : "images/10.jpg", // image src
+				thumb       : "images/10.jpg", // image thumb
+				url         : "#", // url where image will link
+				alt         : "Speed Optimized" // image alt tag
+			},{
+				display     : "image", // image, map, video
+				title       : "Nex", // image title
+				description : "Speed Optimized", // image description
+				link        : "images/11.jpg", // image src
+				thumb       : "images/11.jpg", // image thumb
+				url         : "#", // url where image will link
+				alt         : "Speed Optimized" // image alt tag
+			},{
+				display     : "image", // image, map, video
+				title       : "Nex", // image title
+				description : "Speed Optimized", // image description
+				link        : "images/12.jpg", // image src
+				thumb       : "images/12.jpg", // image thumb
+				url         : "#", // url where image will link
+				alt         : "Speed Optimized" // image alt tag
+			},{
+				display     : "image", // image, map, video
+				title       : "Nex", // image title
+				description : "Speed Optimized", // image description
+				link        : "images/13.jpg", // image src
+				thumb       : "images/13.jpg", // image thumb
+				url         : "#", // url where image will link
+				alt         : "Speed Optimized" // image alt tag
+			},{
+				display     : "image", // image, map, video
+				title       : "Nex", // image title
+				description : "Speed Optimized", // image description
+				link        : "images/14.jpg", // image src
+				thumb       : "images/14.jpg", // image thumb
+				url         : "#", // url where image will link
+				alt         : "Speed Optimized" // image alt tag
+			},{
+				display     : "image", // image, map, video
+				title       : "Nex", // image title
+				description : "Speed Optimized", // image description
+				link        : "images/15.jpg", // image src
+				thumb       : "images/15.jpg", // image thumb
+				url         : "#", // url where image will link
+				alt         : "Speed Optimized" // image alt tag
+			},{
+				display     : "image", // image, map, video
+				title       : "Nex", // image title
+				description : "Speed Optimized", // image description
+				link        : "images/16.jpg", // image src
+				thumb       : "images/16.jpg", // image thumb
+				url         : "#", // url where image will link
+				alt         : "Speed Optimized" // image alt tag
+			},{
+				display     : "image", // image, map, video
+				title       : "Nex", // image title
+				description : "Speed Optimized", // image description
+				link        : "images/17.jpg", // image src
+				thumb       : "images/17.jpg", // image thumb
+				url         : "#", // url where image will link
+				alt         : "Speed Optimized" // image alt tag
+			},{
+				display     : "image", // image, map, video
+				title       : "Nex", // image title
+				description : "Speed Optimized", // image description
+				link        : "images/18.jpg", // image src
+				thumb       : "images/18.jpg", // image thumb
+				url         : "#", // url where image will link
+				alt         : "Speed Optimized" // image alt tag
+			},{
+				display     : "image", // image, map, video
+				title       : "Nex", // image title
+				description : "Speed Optimized", // image description
+				link        : "images/19.jpg", // image src
+				thumb       : "images/19.jpg", // image thumb
+				url         : "#", // url where image will link
+				alt         : "Speed Optimized" // image alt tag
+			},{
+				display     : "image", // image, map, video
+				title       : "Nex", // image title
+				description : "Speed Optimized", // image description
+				link        : "images/20.jpg", // image src
+				thumb       : "images/20.jpg", // image thumb
+				url         : "#", // url where image will link
+				alt         : "Speed Optimized" // image alt tag
+			},{
+				display     : "image", // image, map, video
+				title       : "Nex", // image title
+				description : "Speed Optimized", // image description
+				link        : "images/21.jpg", // image src
+				thumb       : "images/21.jpg", // image thumb
+				url         : "#", // url where image will link
+				alt         : "Speed Optimized" // image alt tag
+			},{
+				display     : "image", // image, map, video
+				title       : "Nex", // image title
+				description : "Speed Optimized", // image description
+				link        : "images/22.jpg", // image src
+				thumb       : "images/22.jpg", // image thumb
+				url         : "#", // url where image will link
+				alt         : "Speed Optimized" // image alt tag
+			},{
+				display     : "image", // image, map, video
+				title       : "Nex", // image title
+				description : "Speed Optimized", // image description
+				link        : "images/23.jpg", // image src
+				thumb       : "images/23.jpg", // image thumb
+				url         : "#", // url where image will link
+				alt         : "Speed Optimized" // image alt tag
+			},{
+				display     : "image", // image, map, video
+				title       : "Nex", // image title
+				description : "Speed Optimized", // image description
+				link        : "images/24.jpg", // image src
+				thumb       : "images/24.jpg", // image thumb
+				url         : "#", // url where image will link
+				alt         : "Speed Optimized" // image alt tag
+			},
+			{
+				display     : "image", // image, map, video
+				title       : "Nex", // image title
+				description : "Speed Optimized", // image description
+				link        : "images/25.jpg", // image src
+				thumb       : "images/25.jpg", // image thumb
+				url         : "#", // url where image will link
+				alt         : "Speed Optimized" // image alt tag
 			},
 			
 		]
