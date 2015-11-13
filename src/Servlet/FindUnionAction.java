@@ -1,6 +1,9 @@
 package Servlet;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.Vector;
 
 import javax.servlet.ServletException;
@@ -71,10 +74,16 @@ public class FindUnionAction extends HttpServlet {
 		request.setAttribute("data_name", data_name.toString());
 		request.setAttribute("data_num", data_num.toString());
 		Vector<String> unions = findUnionDAO.FindUnions();
+		List<Integer> num = new ArrayList<Integer>();
+		for (int i = 0; i < unions.size(); i++) {
+			num.add((int) (Math.random()*1000));
+		}
+		Collections.sort(num);
+		int count = num.size()-1;
 		StringBuffer data_union = new StringBuffer().append("[");
 		for (String union : unions) {
 			data_union.append("{ name:'" + union + "', value:"
-					+ (int) (Math.random() * 1000)
+					+ num.get(count--)
 					+ ", itemStyle: createRandomItemStyle() },");
 		}
 		data_union.deleteCharAt(data_union.length() - 1);

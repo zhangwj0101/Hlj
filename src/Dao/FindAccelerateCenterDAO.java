@@ -7,7 +7,6 @@ import DBConnection.DB;
 import JavaBean.AccelerateCenter;
 
 public class FindAccelerateCenterDAO {
-
 	private DB db = new DB();
 
 	public Vector<AccelerateCenter> findAllAcceletateCenters() {

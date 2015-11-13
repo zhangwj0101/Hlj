@@ -68,6 +68,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<div id="barshow" style="overflow:auto;position:absolute;left:20px;width:30%;height:90%;"></div>
 	<div id="map" style="overflow:auto;position:absolute;left:590px;width:68%;height:90%;margin:0px auto;text-align:center"></div>
 	<a href="hlj_V2/cat/index.html" class="fanhui">返回</a>
+	<div id="search" style="width:980px;height:972px;top:87px;left:20px;position:absolute;display:none;">
+		<div id="close" style="top:14px;left:-58px;position:absolute;width:980px;text-align:right;"><a href="javascript:hide()"><input type="button" value="关闭" style="width:55px;height:26px;font-size:14px;"/></a></div>
+		<iframe id="iframe" name="layer_iframe" src=""
+			scrolling="yes" height="100%" width="100%" frameborder="0"></iframe>
+	</div>
     <script src="build/dist/echarts.js"></script>
     <script type="text/javascript">
         // 路径配置
@@ -230,18 +235,20 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			    backgroundColor:'rgba(255,255,255,1)',
 			    series: [{
 			        type: 'wordCloud',
-			        size: ['80%', '80%'],
+			        size: ['100%', '100%'],
 			        textRotation : [0, 0],
 			        textPadding: 0,
 			        autoSize: {
 			            enable: true,
-			            minSize: 14
+			            minSize: 20
 			        },
 			        data: ${data_union}
 			    }]
 			};
 	        myChart.setOption(option);
 	        myChart.on('click', function (param) {
+	        	$("#iframe").attr("src","http://kejso.com/hlj/servlet/SearchServlet?core=fields&query="+param.name);
+	        	$("#search").show();
 	        });
 	        window.onresize = myChart.resize;
 	    }
@@ -256,6 +263,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		        }
 		    };
 		}
+	    function hide(){
+        	$("#search").hide();
+        }
     </script>
   </body>
 </html>

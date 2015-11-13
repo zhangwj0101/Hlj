@@ -19,7 +19,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	-->
 	<script type="text/javascript" src="js/jq.js"></script>
-	<script type="text/javascript" src="js/map.js"></script>
+	<script type="text/javascript" src="js/map_researchorg.js"></script>
 	<script type="text/javascript" src="citydata.json"></script>
 	<script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui.js"></script>
