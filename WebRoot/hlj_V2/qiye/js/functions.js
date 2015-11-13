@@ -39,8 +39,8 @@ jQuery(function() {
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/4.jpg", // image src
-				thumb       : "images/4.jpg", // image thumb
+				link        : "images/4.JPG", // image src
+				thumb       : "images/4.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},
@@ -48,8 +48,8 @@ jQuery(function() {
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/5.jpg", // image src
-				thumb       : "images/5.jpg", // image thumb
+				link        : "images/5.JPG", // image src
+				thumb       : "images/5.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},
@@ -57,8 +57,8 @@ jQuery(function() {
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/6.jpg", // image src
-				thumb       : "images/6.jpg", // image thumb
+				link        : "images/6.JPG", // image src
+				thumb       : "images/6.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},
@@ -66,8 +66,8 @@ jQuery(function() {
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/7.jpg", // image src
-				thumb       : "images/7.jpg", // image thumb
+				link        : "images/7.JPG", // image src
+				thumb       : "images/7.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},
@@ -75,8 +75,8 @@ jQuery(function() {
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/8.jpg", // image src
-				thumb       : "images/8.jpg", // image thumb
+				link        : "images/8.JPG", // image src
+				thumb       : "images/8.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},
@@ -84,128 +84,128 @@ jQuery(function() {
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/9.jpg", // image src
-				thumb       : "images/9.jpg", // image thumb
+				link        : "images/9.JPG", // image src
+				thumb       : "images/9.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},{
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/10.jpg", // image src
-				thumb       : "images/10.jpg", // image thumb
+				link        : "images/10.JPG", // image src
+				thumb       : "images/10.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},{
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/11.jpg", // image src
-				thumb       : "images/11.jpg", // image thumb
+				link        : "images/11.JPG", // image src
+				thumb       : "images/11.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},{
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/12.jpg", // image src
-				thumb       : "images/12.jpg", // image thumb
+				link        : "images/12.JPG", // image src
+				thumb       : "images/12.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},{
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/13.jpg", // image src
-				thumb       : "images/13.jpg", // image thumb
+				link        : "images/13.JPG", // image src
+				thumb       : "images/13.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},{
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/14.jpg", // image src
-				thumb       : "images/14.jpg", // image thumb
+				link        : "images/14.JPG", // image src
+				thumb       : "images/14.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},{
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/15.jpg", // image src
-				thumb       : "images/15.jpg", // image thumb
+				link        : "images/15.JPG", // image src
+				thumb       : "images/15.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},{
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/16.jpg", // image src
-				thumb       : "images/16.jpg", // image thumb
+				link        : "images/16.JPG", // image src
+				thumb       : "images/16.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},{
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/17.jpg", // image src
-				thumb       : "images/17.jpg", // image thumb
+				link        : "images/17.JPG", // image src
+				thumb       : "images/17.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},{
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/18.jpg", // image src
-				thumb       : "images/18.jpg", // image thumb
+				link        : "images/18.JPG", // image src
+				thumb       : "images/18.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},{
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/19.jpg", // image src
-				thumb       : "images/19.jpg", // image thumb
+				link        : "images/19.JPG", // image src
+				thumb       : "images/19.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},{
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/20.jpg", // image src
-				thumb       : "images/20.jpg", // image thumb
+				link        : "images/20.JPG", // image src
+				thumb       : "images/20.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},{
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/21.jpg", // image src
-				thumb       : "images/21.jpg", // image thumb
+				link        : "images/21.JPG", // image src
+				thumb       : "images/21.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},{
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/22.jpg", // image src
-				thumb       : "images/22.jpg", // image thumb
+				link        : "images/22.JPG", // image src
+				thumb       : "images/22.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},{
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/23.jpg", // image src
-				thumb       : "images/23.jpg", // image thumb
+				link        : "images/23.JPG", // image src
+				thumb       : "images/23.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},{
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/24.jpg", // image src
-				thumb       : "images/24.jpg", // image thumb
+				link        : "images/24.JPG", // image src
+				thumb       : "images/24.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},
@@ -213,8 +213,8 @@ jQuery(function() {
 				display     : "image", // image, map, video
 				title       : "Nex", // image title
 				description : "Speed Optimized", // image description
-				link        : "images/25.jpg", // image src
-				thumb       : "images/25.jpg", // image thumb
+				link        : "images/25.JPG", // image src
+				thumb       : "images/25.JPG", // image thumb
 				url         : "#", // url where image will link
 				alt         : "Speed Optimized" // image alt tag
 			},
