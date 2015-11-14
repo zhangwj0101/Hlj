@@ -65,8 +65,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</form>
     
     <div style="position:relative;top:13px;"><h2 style="width:100%;text-align:center;font-size:40px;letter-spacing:25px;"><font color=#ffffff>黑龙江省产业技术创新战略联盟</h2></font></div>
-	<div id="barshow" style="overflow:auto;position:absolute;left:20px;width:30%;height:90%;"></div>
-	<div id="map" style="overflow:auto;position:absolute;left:590px;width:68%;height:90%;margin:0px auto;text-align:center"></div>
+	<div id="barshow" style="top:80px;overflow:auto;position:absolute;left:20px;width:30%;height:90%;"></div>
+	<div id="map" style="overflow:auto;position:absolute;left:590px;top:80px;width:68%;height:90%;margin:0px auto;text-align:center"></div>
 	<a href="hlj_V2/cat/index.html" class="fanhui">返回</a>
 	<div id="search" style="width:980px;height:972px;top:87px;left:20px;position:absolute;display:none;">
 		<div id="close" style="top:14px;left:-58px;position:absolute;width:980px;text-align:right;"><a href="javascript:hide()"><input type="button" value="关闭" style="width:55px;height:26px;font-size:14px;"/></a></div>

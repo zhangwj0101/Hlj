@@ -48,7 +48,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body  style="background-image:url('images/bg.jpg')" >
     <div style="position:relative;top:13px;"><h2 style="width:100%;text-align:center;font-size:40px;letter-spacing:25px;"><font color=#ffffff>黑龙江省研发人员情况</h2></font></div>
-	<div id="barshow" style="float:left;width:100%;min-height:93%;text-align:center;"></div>
+	<div id="barshow" style="position:absolute;top:80px;float:left;width:100%;height:950px;text-align:center;"></div>
 	<a href="hlj_V2/cat/index.html" class="fanhui">返回</a>
 	<div style="position: absolute; top: 1020px; right: 673px;"><span style="font-size: 32px;font-weight: bold;">2010-2013年黑龙江省研发人员基本情况</span></div>
     <script type="text/javascript">
