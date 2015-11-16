@@ -2,7 +2,7 @@ ul.ts_container{
 	list-style:none;
 	margin:0;
 	padding:0;
-	width:476px;/*dot width times number of dots*/
+	width:800px;/*dot width times number of dots*/
 	position:absolute;
 	height:17px;
 	top:20px;

@@ -85,14 +85,14 @@ a.back:hover{
 .pg_container{
 	width:100%;
 	position:relative;
-	height:412px;
+	height:600px;
 }
 ul.pg_photos{
 	position:absolute;
-	top:0;
+	top:100px;
 	left:0;
-	height:412px;
-	width:12188px; /*This is set dynamically*/
+	height:600px;
+	width:40600px; /*This is set dynamically*/
 	list-style-type:none;
 }
 ul.pg_photos li{
