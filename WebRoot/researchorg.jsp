@@ -50,7 +50,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<div id="barshow" style="float:left;width:576px;height:950px;position:absolute;top:80px;"></div>
 	<div id="map" style="position:absolute;top:80px;left:576px;width:1344px;height:950px;;margin:0px auto;"></div>
 	<a href="hlj_V2/cat/index.html" class="fanhui">返回</a>
-    <div id="search" style="width:980px;height:958px;top:87px;left:30px;position:absolute;display:none;">
+    <div id="search" style="z-index:10000;width:980px;height:950px;top:80px;left:5px;position:absolute;display:none;">
 		<div id="close" style="top:14px;left:-58px;position:absolute;width:980px;text-align:right;"><a href="javascript:hide()"><input type="button" value="关闭" style="width:55px;height:26px;font-size:14px;"/></a></div>
 		<iframe id="iframe" name="layer_iframe" src=""
 			scrolling="yes" height="100%" width="100%" frameborder="0"></iframe>

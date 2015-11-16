@@ -15,12 +15,12 @@ public class FindResearchOrgDAO {
 		ResultSet rs = null;
 		Vector<ResearchOrg> researchOrgs = new Vector<ResearchOrg>();
 		try {
-			String sql = " select id,name,address,x,y,link from researchorg ";
+			String sql = " select id,name,address,x,y,link,level from researchorg ";
 			rs = db.sm.executeQuery(sql);
 			while (rs.next()) {
 				researchOrgs.addElement(new ResearchOrg(rs.getInt(1), rs
 						.getString(2), rs.getString(3), rs.getDouble(4), rs
-						.getDouble(5), rs.getString(6)));
+						.getDouble(5), rs.getString(6),rs.getString(7)));
 			}
 			return researchOrgs;
 		} catch (Exception e) {

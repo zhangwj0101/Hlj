@@ -83,7 +83,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				        {
 				            type : 'category',
 				            splitLine: {show:false},
-				            data : ['鹤岗','七台河','大兴安岭','鸡西','黑河','双鸭山','伊春','绥化','齐齐哈尔','佳木斯','牡丹江','大庆','哈尔滨'],
+				            data : ['黑河','鹤岗','七台河','双鸭山','大兴安岭','绥化','伊春','鸡西','齐齐哈尔','佳木斯','牡丹江','大庆','哈尔滨'],
 				            axisLabel:{
                             	interval:0,
                             	textStyle:{
@@ -139,10 +139,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							            }
 							        },
 							        {
-					            		value:1,
+					            		value:2,
 						            	itemStyle : { 
 							            	normal: {
-							            		color:'rgba(255,105,180,1)'
+							            		color:'rgba(0,255,0,1)'
 							            	}
 							            }
 							        },
@@ -171,18 +171,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							            }
 							        },
 							        {
-					            		value:4,
+					            		value:7,
 						            	itemStyle : { 
 							            	normal: {
-							            		color:'rgba(255,255,0,1)'
-							            	}
-							            }
-							        },
-							        {
-					            		value:4,
-						            	itemStyle : { 
-							            	normal: {
-							            		color:'rgba(255,255,0,1)'
+							            		color:'rgba(255,120,0,1)'
 							            	}
 							            }
 							        },
@@ -195,7 +187,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							            }
 							        },
 							        {
-					            		value:16,
+					            		value:10,
+						            	itemStyle : { 
+							            	normal: {
+							            		color:'rgba(255,120,0,1)'
+							            	}
+							            }
+							        },
+							        {
+					            		value:22,
 						            	itemStyle : { 
 							            	normal: {
 							            		color:'rgba(0,191,255,1)'
@@ -203,7 +203,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							            }
 							        },
 							        {
-					            		value:40,
+					            		value:51,
 						            	itemStyle : { 
 							            	normal: {
 							            		color:'rgba(255,0,0,1)'

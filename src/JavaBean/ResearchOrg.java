@@ -7,13 +7,14 @@ public class ResearchOrg {
 	private double x;
 	private double y;
 	private String link;
+	private String level;
 
 	public ResearchOrg() {
 		super();
 	}
 
 	public ResearchOrg(int id, String name, String address, double x, double y,
-			String link) {
+			String link, String level) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -21,6 +22,7 @@ public class ResearchOrg {
 		this.x = x;
 		this.y = y;
 		this.link = link;
+		this.level = level;
 	}
 
 	public int getId() {
@@ -69,6 +71,14 @@ public class ResearchOrg {
 
 	public void setLink(String link) {
 		this.link = link;
+	}
+
+	public String getLevel() {
+		return level;
+	}
+
+	public void setLevel(String level) {
+		this.level = level;
 	}
 
 }

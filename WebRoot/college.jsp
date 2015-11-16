@@ -49,7 +49,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <div style="position:relative;top:13px;"><h2 style="width:100%;text-align:center;font-size:40px;letter-spacing:25px"><font color=#ffffff>黑龙江普通高校分布情况</h2></font></div>
 	<div id="barshow" style="float:left;width:576px;height:950px;position:absolute;top:80px;"></div>
 	<div id="map" style="position:absolute;top:80px;left:576px;width:1344px;height:950px;;margin:0px auto;"></div>
-	<div id="search" style="width:980px;height:958px;top:87px;left:10px;position:absolute;display:none;">
+	<div id="search" style="z-index:10000;width:980px;height:950px;top:80px;left:5px;position:absolute;display:none;">
 		<div id="close" style="top:14px;left:-58px;position:absolute;width:980px;text-align:right;"><a href="javascript:hide()"><input type="button" value="关闭" style="width:55px;height:26px;font-size:14px;"/></a></div>
 		<iframe id="iframe" name="layer_iframe" src=""
 			scrolling="yes" height="100%" width="100%" frameborder="0"></iframe>

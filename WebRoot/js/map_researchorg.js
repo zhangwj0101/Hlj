@@ -47,7 +47,7 @@ function initMap(collegeList, div_id,size) {
 	// 信息窗口样式
 	var opts = {
 		width : 800, // 信息窗口宽度
-		height : 200, // 信息窗口高度
+		height : 300, // 信息窗口高度
 		offset : new BMap.Size(0, -20)
 		// 信息窗口偏移量
 	}
@@ -56,27 +56,17 @@ function initMap(collegeList, div_id,size) {
 
 	function addMarkers(collegeList) {
 		console.log(collegeList);
+		var icon_blue = new BMap.Icon("images/marker_blue.png", new BMap.Size(23, 25), {anchor:new BMap.Size(10,25)});
 		for (var i = 0, length = collegeList.length; i < length; i++) {
 			var point = new BMap.Point(collegeList[i].y, collegeList[i].x);
 			point.name = collegeList[i].name;
 			var marker = new BMap.Marker(point, {
 						title : collegeList[i].name
 					});
+			if (collegeList[i].level == "省属")
+				marker.setIcon(icon_blue);
 			openInfoWindow(marker, collegeList[i]);
 			map.addOverlay(marker);
-			
-/*			var myLabel = new BMap.Label(i+1,{offset:new BMap.Size(-10,-22),position:point});
-			myLabel.setTitle(collegeList[i].name);
-			myLabel.setStyle({ //给label设置样式，任意的CSS都是可以的
-				"color":"white", //颜色
-				"fontSize":"12px", //字号
-				"border":"0", //边
-				"width":"16px", //宽
-				"textAlign":"center", //文字水平居中显示
-				"background-color": "rgba(255, 0, 0, 1)",
-				"border-radius": "60px"
-			});
-			map.addOverlay(myLabel);*/
 		}
 	}
 
